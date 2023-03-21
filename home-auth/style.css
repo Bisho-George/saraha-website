@@ -31,7 +31,10 @@ html, body {
 .nav-item i {
   color: #fef2f2;
   background-color: #ef4444;
-  font-size: x-large;
+  font-size: 2rem;
+}
+.nav-item .nav-link {
+  font-size: 1.4rem;
 }
 
 .nav-item .user {
@@ -70,14 +73,14 @@ html, body {
 }
 
 .home .container .saraha-body {
-  margin: 10rem 0;
+  margin: 5rem 0 4rem 0;
 }
 .home .container .saraha-body h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   color: var(--text-color);
 }
 .home .container .saraha-body p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--text-color);
 }
 .container .row {

@@ -64,8 +64,12 @@ html, body {
 /* Home Section  */
 
 .home {
-  background-color: #d16236;
-  min-height: 150vh;
+  background: url("../assets/Group\ 10.png"), #1E1E1E;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  min-height: 150vh; 
+  position: relative;
 }
 
 .home .container .saraha-body {

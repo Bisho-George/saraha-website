@@ -2,6 +2,7 @@
 :root {
   --main-color: #ef4444;
   --text-color: #fef2f2;
+  --secondary-color: #1E1E1E;
 }
 /* Global Styles */
 * {
@@ -60,8 +61,12 @@ html, body {
 /* Home Section  */
 
 .home {
-  background-color: #d16236;
-  min-height: 150vh;
+  background: url("../assets/Group\ 10.png"), var(--secondary-color);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  min-height: 150vh; 
+  position: relative;
 }
 
 .home .container .saraha-body {
@@ -80,6 +85,7 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
 
 
 .home .container .row .sent p {
